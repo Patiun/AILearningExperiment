@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Transition : MonoBehaviour {
+public class Transition : Object {
 
 	private State originatingState;
 	private State targetState;
